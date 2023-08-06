@@ -47,14 +47,16 @@ footer {
 }
 
 header {
-justify-content: space-between;
-
+ justify-content: space-between;
 }
+
 .prt_esquerda{
     display: flex;
+    align-items: center;
 }
 
 #imglogo{
+    width: 15vh;
     border-radius: 30%;
     box-shadow: 5px 5px 20px rgb(158, 209, 233) ;
 }
@@ -73,4 +75,8 @@ justify-content: space-between;
     border:none;
     height:32px;
     width:260px;
+  }
+
+  #texto{
+    color:rgb(28, 168, 233) ;
   }
