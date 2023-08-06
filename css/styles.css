@@ -78,5 +78,9 @@ header {
   }
 
   #texto{
+    font-size: 300%;
     color:rgb(28, 168, 233) ;
+  }
+  #teste{
+    width: 800px;
   }
