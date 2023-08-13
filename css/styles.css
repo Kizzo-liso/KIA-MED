@@ -82,5 +82,8 @@ header {
     color:rgb(28, 168, 233) ;
   }
   #teste{
-    width: 800px;
+    width: 63vw;
+  }
+  main{
+    flex-direction: column;
   }
