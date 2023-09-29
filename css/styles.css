@@ -5,7 +5,7 @@
 
 }
 
-header,nav,main,footer{
+header,nav,main,footer,aside{
     background: rgb(255, 217, 168);
     display: flex;
     margin: 3px;
