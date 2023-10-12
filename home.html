@@ -6,6 +6,7 @@
     <title>Kia med</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="img/iconesite.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 
 <body>
@@ -19,13 +20,46 @@
         </div>
 
     </header>
-    <nav>Menu
-        <ul><br>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Contato</a></li>
+    <nav class="menu-lateral">
+        <div class="bnt-expandir" >
+            <i class="bi bi-list" id="bnt-exp"></i>
+        </div>
+
+        <ul>
+           
+            <li class="item-menu ativo" >
+                <a href="#">
+                    <span class="icon"><i class="bi bi-house"></i></span>
+                    <span class="txt-link">Home</span>
+                </a>
+            </li>
+            
+            <li class="item-menu" >
+                <a href="#">
+                    <span class="icon"><i class="bi bi-card-list"></i></span>
+                    <span class="txt-link">Categorias</span>
+                </a>
+            </li>
+            
+            <li class="item-menu" >
+                <a href="#">
+                    <span class="icon"><i class="bi bi-chat-left-dots"></i></span>
+                    <span class="txt-link">Sobre nós</span>
+                </a>
+            </li>
+            
+            <li class="item-menu" >
+                <a href="#">
+                    <span class="icon"></span>
+                    <span class="txt-link">insira texto</span>
+                </a>
+            </li>
+        
         </ul>
+
+
     </nav>
+
 
     <main>Principal
         <img id="teste" src="img/OIP.jpg" alt="">
@@ -42,6 +76,8 @@
             quod, quod, quibusdam quaerat quidem quibusdam quod, quod, quibusdam quaerat quidem quibusdam quod, quod,
             quibusdam quaerat quidem quibusdam quod, quod, quibusdam quaerat qu
     </footer>
+
+    <script src="js/menu.js"> </script>
 </body>
 
 </html>
