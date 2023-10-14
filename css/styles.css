@@ -6,8 +6,9 @@
 }
 
 header,nav,main,footer,aside{
-    background: rgb(14, 13, 13);
+    background:  rgb(171, 228, 238);
     display: flex;
+    margin: 3px;
    
 }
 
@@ -29,7 +30,6 @@ nav {
     flex: 1 1;
     flex-direction: column;
     width: 80px;
-    
 }
 main {
     flex: 20 1 500px;
@@ -60,16 +60,38 @@ header {
 #imglogo{
     width: 15vh;
     border-radius: 30%;
-    box-shadow: 5px 5px 20px rgb(158, 209, 233) ;
+    
 }
+.box-busca{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+.search-box form {
+    
+    display: flex;
+    border-radius: 50px;
+    height: 25px;
+}
+.search-box-input {
+    font-size: 1.2em;
+    color: #000000;
+    padding: 0;
+    border: none;
+    background: none;
+    transition: .45s;
+}
+.search-box-button {
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    background: none;
+ }
 
-.caixa_pesquisa{
-    border:solid 1px;
-    border-radius:15px;
-    height: 38%;
-    position: static;
-}
-  
   #txt_busca{
     float:left;
     background-color:transparent;
@@ -96,6 +118,7 @@ header {
     padding: 40px 0 40px 1%;
     box-shadow: 3px 0 0 rgb(164, 202, 240);
     transition: .5s;
+    
     
     
 }
