@@ -337,7 +337,6 @@ ul li.item-menu a .icon > i{
 }
 
 .blcs-conteudo {
-    margin-top: auto;
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -346,7 +345,7 @@ ul li.item-menu a .icon > i{
 
 .conteudo-blcs {
     width: 200px;
-    margin: 10px;
+    margin: 5px;
     text-align: center; 
 }
 
