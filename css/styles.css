@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing:border-box;
 
 }
+
 #texto{
-    font-family: cursive;
+    font-family: 'Nunito', sans-serif;
 }
 body{
     background: radial-gradient(rgb(28, 168, 233),white);
@@ -209,7 +211,7 @@ ul li.item-menu a .icon > i{
 
 /*slider*/
 .slider{
-    margin: 0 auto;
+    margin: 60px auto;
     width: 800px;
     height: 400px;
     overflow: hidden;
@@ -328,3 +330,28 @@ ul li.item-menu a .icon > i{
     text-decoration: none;
 }
 /*fim*/
+.conteudos{
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+.blcs-conteudo {
+    margin-top: auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%; 
+}
+
+.conteudo-blcs {
+    width: 200px;
+    margin: 10px;
+    text-align: center; 
+}
+
+
+.img-bloco {
+    max-width: 100%; 
+    height: auto;
+}
