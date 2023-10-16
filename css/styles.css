@@ -330,12 +330,14 @@ ul li.item-menu a .icon > i{
     text-decoration: none;
 }
 /*fim*/
+
+/*conteudos do main*/
 .conteudos{
     width: auto;
     height: auto;
     display: flex;
 }
-
+/*conteudos em bloco*/
 .blcs-conteudo {
     display: flex;
     justify-content: center; 
@@ -354,3 +356,4 @@ ul li.item-menu a .icon > i{
     max-width: 100%; 
     height: auto;
 }
+/*fim*/
