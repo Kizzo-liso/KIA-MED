@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 12pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+body{
+    background-image: radial-gradient(rgb(161, 207, 213), rgb(51, 160, 175));
+    background-repeat: no-repeat;
+}
+
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.ContainerCadastro{
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+
+
+}
+
+
+.InfoCadastro{
+    margin: 20px 0px 20px 0px;
+    display: flex;
+}
+
+
+.InfoCadastro input{
+    width: 100vw;
+    height: auto;
+    padding: 1px;
+    margin: 2px 5px 10px 5px;
+    width: 100%;
+}
+
+
+#CriarConta{
+    color: black;
+    border-radius: 30px;
+    padding: 10px 25px 10px 25px;
+    border: none;
+    color: rgb(50, 50, 55);
+    background-color: rgb(0, 234, 255);
+    box-shadow: 3px 3px 2px rgb(17, 220, 220);
+}
+
+
+#CriarConta:active{
+    transition: 0.25s;
+    background-color: rgb(6, 243, 136);
+    box-shadow: 3px 3px 2px rgb(1, 194, 72);
+}
+
+
+#TituloCadastro{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: rgb(33, 111, 255);
+    text-shadow: 1px 1px 2px rgba(5, 5, 148, 0.9);
+}
+
+
+#logo-kiamed{
+    display: flex;
+}

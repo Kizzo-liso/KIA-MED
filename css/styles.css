@@ -8,6 +8,7 @@
 
 #texto{
     font-family: 'Nunito', sans-serif;
+    margin-left: 10px;
 }
 body{
     background: radial-gradient(rgb(28, 168, 233),white);
