@@ -6,20 +6,19 @@
 
 }
 
-#texto{
-    font-family: 'Nunito', sans-serif;
-    margin-left: 10px;
-}
+
 body{
     background: radial-gradient(rgb(28, 168, 233),white);
     font-family:Arial, Helvetica, sans-serif;
 }
+/*footer*/
 
-header,nav,main,footer,aside{
+/*footer*/
+header,nav,main,aside{
     background: none;
     display: flex;
-    margin: 3px;
-    border: 3px solid rgb(170, 172, 232);
+    margin: 1px;
+    border: 1px solid rgb(170, 172, 232);
     border-radius: 10px;
 }
 nav{
@@ -58,7 +57,7 @@ aside {
 }
 
 footer {
-    height: 100px;
+    height: 120px;
     flex: 1 1 100vw;
 
 }
@@ -67,9 +66,26 @@ header {
  justify-content: space-between;
 }
 /* config do header*/
-.prt_esquerda{
+.prt_esquerda a{
     display: flex;
     align-items: center;
+    text-decoration: none;
+}
+.prt_esquerda a span #texto{
+        font-family: 'Nunito', sans-serif;
+        margin-left: 10px;
+        color: rgb(255, 60, 0); 
+    }
+.prt_esquerda a span #texto-vermelho{
+    font-family: 'Nunito', sans-serif;
+    margin-left: 10px;
+    color: blue;
+    font-size: 50px;
+}
+.prt_esquerda a span{
+    display: flex;
+    align-self: center;
+    justify-content: center;
 }
 
 #imglogo{
@@ -358,3 +374,36 @@ ul li.item-menu a .icon > i{
     height: auto;
 }
 /*fim*/
+footer{
+    display: flex;
+    background: linear-gradient(to bottom, rgb(167, 220, 245),rgb(134, 193, 201));
+    border-top: 1px solid rgb(135, 136, 150);
+}
+footer{flex-direction: column;}
+/*footer*/
+.cont-lado{display: flex;
+width: 90%;
+height: 50%;
+align-items: center;
+justify-content: center;
+border-bottom: 1px solid black;
+margin-left: 50px;
+}
+.conteudo-footer{
+    margin-left: 1.2%;
+    
+}
+.item-link a{
+    text-decoration: none;
+    color: #000000;
+}
+.icone-ano{
+    display: flex;
+    width: 90%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.icone-ano .iconesite img{
+    width: 50px;
+}
