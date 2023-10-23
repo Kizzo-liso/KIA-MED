@@ -10,13 +10,11 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/background-generico.jpg);
-    
-
+    background-image: url(../img/plano_de_fundo.jpg);
 }
 .Container{
-    width: 50%;
-    height: 70%;
+    width: 30vw;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,7 +24,8 @@ main{
     background-color: rgb(255, 255, 255);
     border: 1px solid black;
     border-radius: 20px;
-    
+    padding: 35px;
+    box-shadow: 1px 1px 10px #bdbdbd;
 }
 
 .LoginUsuario{
@@ -36,7 +35,6 @@ main{
     flex-direction: column;
     font-size: medium;
     flex-wrap: nowrap;
-    margin: 10px 10px 10px 10px;
 }
 
 .TextInput{
@@ -51,7 +49,7 @@ main{
 .TextInput > input{
     background-color: rgb(164, 202, 240);
     color: rgb(0, 0, 0);
-    font-size: 12pt;
+    font-size: small;
     width: 100%;
     height: 30px;
     border: none;
@@ -75,6 +73,7 @@ main{
     background-color: rgba(0, 60, 255, 0.922);
     font-size: 12pt;
     color: #fffafa;
+    margin-bottom: 10px;
 }
 
 
@@ -88,11 +87,6 @@ main{
 }
 
 #link:active{
-    color: rgb(132, 0, 255);
+    color: rgb(70, 0, 135);
 }
 
-#img-Kiamed{
-    width: 100%;
-    height: 100%;
-    position: relative;
-}

@@ -9,34 +9,36 @@
 
 <body>
 
-<main>
-<div class="Container">
-    <div id="Img-Kiamed">
-        <img src="img/Kiamed-logo.png" alt="Logo do Kiamed" width="200" height="200">
-    </div>
-    <div class="LoginUsuario">
-        <form action="Login" method="post">
-            <h2>LOGIN DE USUÁRIO</h2>
-            <div class="TextInput">
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" placeholder="Email" required>
+    <main>
+        <div class="Container">
+            <div id="Img-Kiamed">
+                <img src="img/Kiamed-logo.png" alt="Logo do Kiamed" width="200" height="200">
+            </div>
+            <div class="LoginUsuario">
+                <form action="Login" method="post">
+                    <h2 id="login-titulo">LOGIN DE USUÁRIO</h2>
+                    <div class="TextInput">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    </div>
+
+                    <div class="TextInput">
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" id="senha" placeholder="Senha" minlength="5" required>
+                    </div> 
+
+
+                    <a href="home.html"><button id="Botao-login">Acessar</button></a>
+                </form>
+                <hr>
+
+                <a href="cadastro.html" id="link">Criar Conta</a>
+                <a href="#" id="link">Esqueceu Senha?</a>
             </div>
 
-            <div class="TextInput">
-            <label for="senha">Senha:</label>
-            <input type="password" name="senha" id="senha" placeholder="Senha" required>
-            </div> 
+        </div>
 
-            <button id="Botao-login">
-                Acessar
-            </button>
-        </form>
-        <a href="" id="link">Criar Conta</a> <a href="" id="link">Esqueceu Senha?</a>
-    </div>
-
-</div>
-
-</main>
+    </main>
 
 </body>
 </html>
