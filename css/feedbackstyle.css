@@ -9,6 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Arial;
 }
 
 main{
@@ -17,7 +18,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/plano_de_fundo.jpg);
+    background-image: radial-gradient(rgb(28, 168, 233),white);
     flex-wrap: wrap-reverse;
 
 }
@@ -62,21 +63,33 @@ h1{
     height: 40px;
     border: none;
     border-radius: 30px;
-    background-color: rgba(0, 60, 255, 0.922);
+    background-color: rgb(204, 224, 244);
     font-size: 12pt;
-    color: #fffafa;
+    color: rgb(94, 93, 92);
 }
 
 #botao-enviar{
+
     width: 100px;
     height: 40px;
     border: none;
     border-radius: 30px;
-    background-color: rgba(0, 60, 255, 0.922);
+    background-color:rgb(204, 224, 244);
     font-size: 12pt;
-    color: #fffafa;
+    color:rgb(94, 93, 92);
+}
+#botao-enviar:hover{
+    background-color: rgb(127, 246, 8);
 }
 
+#botao-deletar:hover{
+    background-color: rgb(239, 20, 20);
+    color: black;
+}
+
+#descricao{
+    background-color: mintcream;
+}
 .feed{
     font-size: 2em;
 }

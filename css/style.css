@@ -28,10 +28,9 @@ body{
 nav.menu-lateral{
     width: 50px;
     height: 100%;
-    background: radial-gradient(rgb(28, 168, 233),white);
+    background-image: radial-gradient(rgb(28, 168, 233),white);
     padding-top: 10px;
     box-shadow: 3px 0 0px blue;
-
     position: fixed;
     top: 0;
     left: 0;

@@ -10,7 +10,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/plano_de_fundo.jpg);
+    background-image: radial-gradient(rgb(28, 168, 233),white);
 }
 .Container{
     width: 30vw;
@@ -21,7 +21,7 @@ main{
     flex-wrap: nowrap;
     align-items: center;
     font-family:Arial, Helvetica, sans-serif;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     border: 1px solid black;
     border-radius: 20px;
     padding: 35px;
