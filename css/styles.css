@@ -47,8 +47,10 @@ nav {
 }
 main {
     flex: 20 1 500px;
-    height: calc(100vh - 224px);
-    
+    height: calc(100vh -224px);
+    border-top: none;
+    border-bottom: none;
+    overflow-y: scroll;
 }
 
 footer {
@@ -142,9 +144,7 @@ header {
     font-size: 300%;
     color:rgb(28, 168, 233) ;
   }
-  #teste{
-    width: 60vw;
-  }
+  
   main{
     flex-direction: column;
   }
@@ -249,7 +249,7 @@ ul li.item-menu a .icon > i{
 }
 
 .manual-navigation{
-    position: absolute;
+    position: relative;
     width:800px;
     margin-top: -40px;
     display: flex;
@@ -297,7 +297,7 @@ ul li.item-menu a .icon > i{
 }
 
 .navigation-auto{
-    position:absolute;
+    position:relative;
     width: 800px;
     margin-top: 360px;
     display: flex;
@@ -445,5 +445,3 @@ margin-left: 50px;
         margin-bottom: 10px;
     }
 }
-
-
