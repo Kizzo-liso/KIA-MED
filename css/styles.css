@@ -109,8 +109,8 @@ header {
 
 .search-box:hover .search-box-input {
     width: 210px; 
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 10px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    
 }
 
 .search-box form {
