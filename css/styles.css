@@ -172,6 +172,9 @@ header {
     cursor: pointer;
 }
 
+.menu-lateral .item-menu a .txt-link {
+    white-space: nowrap;
+}
 
 .menu-lateral>ul{
     height: 100%;
