@@ -43,7 +43,7 @@ nav {
 }
 main {
     flex: 20 1 500px;
-    height: calc(100vh - 224px);
+    height: calc(100vh - 204px);
     border-top: none;
     border-bottom: none;
     overflow-y: scroll;
@@ -51,7 +51,7 @@ main {
 }
 
 footer {
-    height: 120px;
+    height: 100px;
     flex: 1 1 100vw;
     background-color: rgb(194, 252, 255)
 
@@ -372,16 +372,14 @@ footer{
     display: flex;
 
 }
-footer{flex-direction: column;}
-/*footer*/
-.cont-lado{display: flex;
-width: 90%;
-height: 50%;
-align-items: center;
-justify-content: center;
-border-bottom: 1px solid rgb(0, 0, 0);
-margin-left: 50px;
+
+footer{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+/*footer*/
+
 .conteudo-footer{
     margin-left: 1.2%;
     
