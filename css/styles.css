@@ -8,7 +8,6 @@
 
 
 body{
-    background: radial-gradient(rgb(28, 168, 233),white);
     font-family:Arial, Helvetica, sans-serif;
 }
 /*footer*/
@@ -17,17 +16,15 @@ body{
 header,nav,main{
     background: none;
     display: flex;
-    margin: 1px;
-    border: 1px solid rgb(170, 172, 232);
-    border-radius: 10px;
+    margin: 0px;
 }
 nav{
     border-right: none;
+    background-color: #a0e9f6;
 }
 
 body {
     display: flex;
-    margin: 3px;
     flex: 1 1 100vw;
     flex-wrap: wrap;
 }
@@ -37,8 +34,7 @@ header {
     flex: 1 1 100vw;
     height: 100px;
     top: 0;
-    
-    
+    background-color: azure;
 }    
 nav {
     flex: 1 1;
@@ -47,15 +43,17 @@ nav {
 }
 main {
     flex: 20 1 500px;
-    height: calc(100vh -224px);
+    height: calc(100vh - 224px);
     border-top: none;
     border-bottom: none;
     overflow-y: scroll;
+    
 }
 
 footer {
     height: 120px;
     flex: 1 1 100vw;
+    background-color: rgb(208, 220, 255);
 
 }
 
@@ -67,6 +65,7 @@ header {
     display: flex;
     align-items: center;
     text-decoration: none;
+    margin-left: 15px;
 }
 .prt_esquerda a span #texto{
         font-family: 'Nunito', sans-serif;
@@ -152,7 +151,7 @@ header {
 /*menu lateral*/
 
 .menu-lateral{
-    padding: 40px 0 40px 1%;
+    padding: 40px 0 40px;
     box-shadow: 3px 0 0 rgb(164, 202, 240);
     transition: .5s;
     
@@ -169,7 +168,7 @@ header {
 }
 .bnt-expandir>i{
     color: rgb(0, 0, 0);
-    font-size: 24px;
+    font-size: 36px;
     cursor: pointer;
 }
 
@@ -196,7 +195,6 @@ ul li.item-menu a{
     font-size: 20px;
     padding: 20px 4%;
     display: flex;
-    margin-bottom: 20px;
     line-height: 40px;
 }
 
@@ -369,8 +367,7 @@ ul li.item-menu a .icon > i{
 /*fim*/
 footer{
     display: flex;
-    background: linear-gradient(to bottom, rgb(167, 220, 245),rgb(134, 193, 201));
-    border-top: 1px solid rgb(135, 136, 150);
+
 }
 footer{flex-direction: column;}
 /*footer*/
@@ -379,7 +376,7 @@ width: 90%;
 height: 50%;
 align-items: center;
 justify-content: center;
-border-bottom: 1px solid black;
+border-bottom: 1px solid rgb(0, 0, 0);
 margin-left: 50px;
 }
 .conteudo-footer{
