@@ -1,0 +1,37 @@
+body{
+    background-color: #70BFF8;
+}
+section.sobre-nos{
+    padding: 80px 0;
+    /* background-color: rgb(10, 195, 195); */
+    margin: 2em 0;
+}
+
+.sobre-nos .itens-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+    margin: 100px;
+}
+
+.sobre-nos .itens-container .img-itens img{
+    max-width: 480px;
+}
+
+.sobre-nos .itens-container .txt-itens h3{
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.paragrafo-sobre-nos{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 60px;
+}
+
+.itens-container .img-itens{
+    font-weight: 300;
+}

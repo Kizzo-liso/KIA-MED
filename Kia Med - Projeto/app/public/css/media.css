@@ -1,0 +1,12 @@
+/* deixando o site responsivo*/
+@media screen and (max-width: 760px){
+    header{
+        flex-direction: column;
+    }
+    main{
+        flex-direction: column;
+    }
+    aside{
+        margin-top: 10px;
+    }
+}
