@@ -1,7 +1,14 @@
-body {
+/* Reset básico */
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     font-family: Arial, sans-serif;
     background-color: #00FFC4;
+    margin: 0;
 }
 
 .container {
@@ -15,7 +22,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #00FFC4;
+    background-color: #004d40; /* Verde escuro para contraste */
 }
 
 .menu-icon {
@@ -29,7 +36,7 @@ header {
 .menu-line {
     width: 30px;
     height: 4px;
-    background-color: #000;
+    background-color: #FFF; /* Branco para contraste */
 }
 
 .logo {
@@ -40,10 +47,15 @@ header {
 
 .home-button {
     background-color: #0000FF;
-    color: #FFF;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
+}
+
+.home-button a {
+    color: #FFF; /* Branco para o link */
+    text-decoration: none; /* Remove sublinhado */
+    display: block; /* Faz o link preencher todo o botão */
 }
 
 main {
@@ -52,6 +64,7 @@ main {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    flex-wrap: wrap; /* Permite quebrar linha em telas menores */
 }
 
 .logo-image img {
@@ -61,9 +74,11 @@ main {
 
 .form-container {
     background-color: #FFF;
-    padding: 20px;
+    padding: 40px; /* Aumenta o tamanho do formulário */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px; /* Aumenta a largura máxima do formulário */
 }
 
 .form-container h2 {
@@ -89,14 +104,14 @@ main {
     padding: 10px;
     font-size: 16px;
     color: #FFF;
-    background-color: #CCC;
+    background-color: #0000FF;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 footer {
-    background-color: #00FFC4;
+    background-color: #004d40; /* Verde escuro para contraste */
     padding: 20px;
     text-align: center;
 }
@@ -114,4 +129,79 @@ footer {
 
 .footer-logo-text {
     color: #FF0033;
+}
+
+/* Media Queries para responsividade */
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .home-button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .menu-icon {
+        height: 20px;
+    }
+
+    .menu-line {
+        width: 25px;
+        height: 3px;
+    }
+
+    main {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .logo-image {
+        margin: 0 auto 20px;
+        text-align: center;
+    }
+
+    .logo-image img {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .form-container {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 30px; /* Reduzindo padding em telas menores */
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 16px;
+    }
+
+    .home-button {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+
+    .menu-icon {
+        height: 16px;
+    }
+
+    .menu-line {
+        width: 20px;
+        height: 2px;
+    }
+
+    main {
+        padding: 5px;
+    }
+
+    .form-container {
+        padding: 20px; /* Reduzindo ainda mais o padding em telas menores */
+    }
 }

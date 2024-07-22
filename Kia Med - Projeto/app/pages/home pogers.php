@@ -27,8 +27,8 @@
                 <nav>
                     <ul>
                         <li><a href="#">Artigos</a></li>
-                        <li><a href="#">Sobre Nós</a></li>
-                        <li><a href="#">Feedback</a></li>
+                        <li><a href="../pages/sobrenos.php">Sobre Nós</a></li>
+                        <li><a href="../pages/feedback.php">Feedback</a></li>
                         <li><a href="#">Ajuda</a></li>
                     </ul>
                 </nav>
