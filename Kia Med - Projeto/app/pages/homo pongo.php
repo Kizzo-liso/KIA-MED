@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kia Med</title>
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="../public/css/homea.css">
+    <link rel="stylesheet" href="../public/css/media.css">
 </head>
 <body>
     <!--  header é um cabeçalho usado para deixá o conteúdo fixo no topo. -->
