@@ -24,7 +24,7 @@
       </header>
       <main>
         <div class="logo-image">
-          <img src="stethoscope-logo.png" alt="KIA MED Logo" />
+          <img src="../public/img/kiamed.png" alt="KIA MED Logo" />
         </div>
         <div class="form-container">
           <h2>Criar Conta</h2>
@@ -38,7 +38,7 @@
       </main>
       <footer>
         <div class="footer-content">
-          <img src="footer-logo.png" alt="KIA MED Footer Logo" />
+          <img src="../public/img/kiamed.png" alt="KIA MED Footer Logo" />
           <span>2023, <span class="footer-logo-text">KIA MED</span></span>
         </div>
       </footer>
