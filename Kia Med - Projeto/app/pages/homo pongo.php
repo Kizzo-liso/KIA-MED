@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kia Med</title>
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="../public/css/homea.css">
     <link rel="stylesheet" href="css/media.css">
+    <script src="../public/js/home.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
     <!--  header é um cabeçalho usado para deixá o conteúdo fixo no topo. -->
     <header>
-        <!-- a div é utilizado para agrupar elementos para fins de estilos, ele também é usado somente quando não tiver outro elemento semântico (exemplo: article, nav). Ele facilita a organização do layout -->
-         <!--  a <div> serve, especialmente quando a seção é apenas com propósito de estilização.  -->
+        <button 
+        style="background: none; border: none"
+         id="toggle-dark-mode"> Dark Mode <i class="bi bi-moon-fill"></i></button>
+
         <div id="titulo">
             <h1>Kia Med</h1>
         </div>

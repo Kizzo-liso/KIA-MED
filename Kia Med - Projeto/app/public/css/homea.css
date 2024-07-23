@@ -13,6 +13,24 @@ background-image: linear-gradient( to bottom, rgb(194, 59, 153),blueviolet);
 */
 /* background-image: linear-gradient( to bottom, violet,blueviolet); */
 /* background-image: linear-gradient( to bottom, rgb(194, 59, 153),blueviolet); */
+
+/* Estilo padrão (modo claro) */
+body {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Modo escuro */
+  body.dark-mode {
+    background-color: black;
+    color: white;
+  }
+  body.dark-mode #toggle-dark-mode {
+    color: white;
+  }
+  #toggle-dark-mode{
+    font-size: large;
+  }
 body{
    
     background-color: #70BFF8;
