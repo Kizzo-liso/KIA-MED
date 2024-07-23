@@ -15,13 +15,13 @@ $result = $mysqli->query($sql);
 
 if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
-        echo "<div>";
+        echo "<div class='comentario'>";
         echo "<h4>" . htmlspecialchars($row['nome']) . " - " . htmlspecialchars($row['data_comentario']) . "</h4>";
         echo "<p>" . htmlspecialchars($row['texto_comentario']) . "</p>";
         echo "</div><hr>";
     }
 } else {
-    echo "Sem comentários ainda.";
+    echo "<p>Sem comentários ainda.</p>";
 }
 
 desconecta();
