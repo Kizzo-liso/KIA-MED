@@ -14,28 +14,28 @@
 
 </head>
 <body>
-    
+
     <header>
 
         <div class="interface">
 
             <section class="logo">
-                <img src="/img/KiaMed-Header.png" alt="Logo KiaMed">
+                <img src="../public/img/kiamed.png" alt="Logo KiaMed">
             </section>
 
             <section class="menu-desktop">
                 <nav>
                     <ul>
                         <li><a href="#">Artigos</a></li>
-                        <li><a href="#">Sobre Nós</a></li>
-                        <li><a href="#">Feedback</a></li>
+                        <li><a href="../pages/sobrenos.php">Sobre Nós</a></li>
+                        <li><a href="../pages/feedback.php">Feedback</a></li>
                         <li><a href="#">Ajuda</a></li>
                     </ul>
                 </nav>
             </section>
 
             <section class="btn-contato">
-                <a href="#">
+                <a href="../pages/login.php">
                     <button>Login</button>
                 </a>
             </section>
@@ -63,7 +63,7 @@
         </div>
 
         <div class="container-imagens">
-            <img src="/img/imagem de exemplo.avif" alt="Imagem de Exemplo" width="735px" height="611px">
+            <img src="../public/img/imagem de exemplo.avif" alt="Imagem de Exemplo" width="735px" height="611px">
         </div>
 
     </div>
@@ -83,7 +83,7 @@
                 </div>
 
                 <div class="img-itens">
-                    <img src="/img/kiamed.png" alt="Logo do Site">
+                    <img src="../public/img/kiamed.png" alt="Logo do Site">
                 </div>
 
             </article>
@@ -91,7 +91,7 @@
             <article class="itens-container">
 
                 <div class="img-itens">
-                    <img src="/img/kiamed.png" alt="Logo do Site">
+                    <img src="../public/img/kiamed.png" alt="Logo do Site">
                 </div>
 
                 <div class="txt-intens">
@@ -115,7 +115,7 @@
                 </div>
 
                 <div class="img-itens">
-                    <img src="/img/kiamed.png" alt="Logo do Site">
+                    <img src="../public/img/kiamed.png" alt="Logo do Site">
                 </div>
 
             </article>
@@ -130,7 +130,7 @@
 
             <section class="logo-footer">
 
-                <img id="imagem-footer" src="/img/kiamed.png" alt="Logo KiaMed" weight="40" height="40">
+                <img id="imagem-footer" src="../public/img/kiamed.png" alt="Logo KiaMed" weight="40" height="40">
 
             </section>
 
