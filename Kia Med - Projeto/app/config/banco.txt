@@ -107,3 +107,20 @@ CREATE TABLE IF NOT EXISTS CATCONT (
     FOREIGN KEY (cod_conteudo) REFERENCES CONTEUDO(cod_conteudo),
     FOREIGN KEY (cod_categoria) REFERENCES CATEGORIA(cod_categoria)
 );
+
+------ parte eduardo -------
+
+CREATE TABLE categorias (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE posts (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    titulo VARCHAR(255) NOT NULL,
+    descricao TEXT NOT NULL,
+    conteudo TEXT NOT NULL,
+    imagem VARCHAR(255),
+    categoria_id INT,
+    FOREIGN KEY (categoria_id) REFERENCES categorias(id)
+);

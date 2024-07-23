@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #0044cc; /* Azul forte */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-top: 10px;
+    color: #0044cc; /* Azul forte */
+}
+
+form input, form textarea, form select {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #0044cc; /* Azul forte */
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0033aa; /* Azul mais escuro */
+}
+
+.categoria {
+    margin: 20px 0;
+    position: relative;
+}
+
+.categoria h3 {
+    background-color: #00cccc; /* Ciano */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.categoria .post {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.categoria .post img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.categoria .post h4 {
+    margin: 10px;
+    color: #0044cc; /* Azul forte */
+}
+
+.categoria .post p {
+    margin: 10px;
+    color: #333;
+}
+
+.categoria .slide-btns {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.categoria .slide-btns button {
+    background-color: rgba(0, 68, 204, 0.7); /* Azul forte com transparência */
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.categoria .slide-btns button:hover {
+    background-color: rgba(0, 51, 170, 0.7); /* Azul mais escuro com transparência */
+}
