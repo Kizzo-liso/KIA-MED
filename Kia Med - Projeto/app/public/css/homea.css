@@ -32,12 +32,7 @@ body{
     padding: 15px;
 }
 
-header{ /*O Flexbox tem como meta ser um modo mais eficiente para criar leiautes, alinhar e distribuir espaços entre itens em um container*/
-    display: flex; /*permitir por os elementos lado a lado */
-    flex-direction: row; /* flex-direction defini a direção em que os flex items são alinhados no flex container. o ROW organiza da esquerda para a direita  */
-    justify-content: space-between; /* justify-content - Esta propriedade define o alinhamento dos ítens ao longo do eixo principal. space-between: os ítens são distribuídos de forma igual ao longo da linha; o primeiro ítem junto à borda inicial da linha, o último junto à borda final da linha. */
-    align-items: center; /* alinhando os itens no centro */
-}
+
 
 #titulo{
     flex-direction: column; /* flex-direction defini a direção em que os flex items são alinhados no flex container. column organiza de cima para baixo  */

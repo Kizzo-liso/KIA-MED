@@ -6,7 +6,6 @@
     <title>Kia Med</title>
     <link rel="stylesheet" href="../public/css/homea.css">
     <link rel="stylesheet" href="../public/css/mododark.css">
-    <link rel="stylesheet" href="css/media.css">
     <script src="../public/js/home.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>

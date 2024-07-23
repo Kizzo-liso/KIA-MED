@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="../public//css/header.css">
 <header>
         <button 
         style="background: none; border: none"
