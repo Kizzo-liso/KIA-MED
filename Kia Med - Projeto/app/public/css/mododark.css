@@ -1,0 +1,11 @@
+  /* Modo escuro */
+  body.dark-mode {
+    background-color: black;
+    color: white;
+  }
+  body.dark-mode #toggle-dark-mode {
+    color: white;
+  }
+  #toggle-dark-mode{
+    font-size: large;
+  }
