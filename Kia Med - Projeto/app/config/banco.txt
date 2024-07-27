@@ -124,3 +124,22 @@ CREATE TABLE posts (
     categoria_id INT,
     FOREIGN KEY (categoria_id) REFERENCES categorias(id)
 );
+
+
+ALTER TABLE COMENTARIO ADD COLUMN cod_post INT;
+ALTER TABLE COMENTARIO ADD FOREIGN KEY (cod_post) REFERENCES posts(id);
+
+
+
+-- Inserir categorias de exemplo na tabela 'categorias'
+INSERT INTO categorias (nome) VALUES 
+('Depressão'),
+('Ansiedade'),
+('Terapia Cognitivo-Comportamental'),
+('Mindfulness'),
+('Autoajuda'),
+('Relacionamentos'),
+('Bem-estar'),
+('Meditação'),
+('Saúde Mental'),
+('Estresse');

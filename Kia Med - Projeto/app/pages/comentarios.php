@@ -85,17 +85,26 @@
             echo "<p>Você precisa estar logado para comentar.</p>";
             exit();
         }
+
+        // Verifica se o ID do post está presente na URL
+        if (!isset($_GET['post_id'])) {
+            echo "<p>ID do post não especificado.</p>";
+            exit();
+        }
+
+        $post_id = $_GET['post_id'];
         ?>
 
         <p>Bem-vindo, <?php echo htmlspecialchars($_SESSION['nome_usuario']); ?>!</p>
 
         <form action="../actions/enviar_comentario.php" method="post">
+            <input type="hidden" name="post_id" value="<?php echo $post_id; ?>">
             <textarea name="comentario" placeholder="Digite seu comentário" required></textarea>
             <button type="submit">Enviar Comentário</button>
         </form>
 
         <?php 
-            include 'exibir comentarios.php';
+            include 'exibir_comentarios.php';
         ?>
     </div>
 </body>
