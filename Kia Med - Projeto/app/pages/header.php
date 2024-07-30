@@ -13,7 +13,7 @@
                 <a href="#"><li>Contatos</li></a>
                 <a href="sobrenos.html"><li>Sobre</li></a>
                 <a href="feedback.html"><li>Feedback</li></a>
-                <a href="aleatorio.html" id="inscreva-se"><li>Já tem uma conta?</li></a>
+                <a href="../pages/login.php" id="inscreva-se"><li>Já tem uma conta?</li></a>
             </ul>
         </nav> 
     </header>
