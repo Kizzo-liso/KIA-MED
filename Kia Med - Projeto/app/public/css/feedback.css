@@ -1,56 +1,63 @@
-/* zerando tudo para depois estilizar... */
-/* margin: distância do elemento para o elemento seguinte*/
 *{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    /* background-color: #70BFF8; */
+    font-family: "Poppins", sans-serif; 
     background-image: url(../img/imgfeed.png);
     background-repeat: no-repeat;
-    background-size: cover;/* definindo o tamanho da imagem como cover, a imagem vai prencher todo o espaço sem ficar esticada  */
-    background-attachment: fixed;/*a imagem é fixa e vai preencher todo o fundo*/
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
 }
-/* estilizando o container (caixa) */
+
 #container{
     display: flex;
-    justify-content: center; /*centralizando o conteúdo*/
-    width: 92%;
-    height: 450px;
-    margin-top: 220px;/*essa margem permite o container não ficar colado na parte superior*/
+    justify-content: center; 
+    align-items: center;
+    width: 80vw;
+    height: auto;
+
+}
+
+.box-feedback{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(8, 8, 5, 0);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 20px 20px 50px 18px rgba(12, 12, 12, 0.363);
 }
 /* ajustando o conteúdo dentro do container... */
-form{
-    background-color: rgba(8, 8, 5, 0);
-    /* background-color: #ffffff10; */
-    padding: 30px;/*espaçamento entre o conteúdo e a borda*/
-    border-radius: 15px;
-    box-shadow: 20px 20px 50px 18px rgba(12, 12, 12, 0.363);/*sombriamento*/;
-    position: relative;
-}
+
 h1{
     text-align: center;
     color: #fff;
-    font-size: 42px;
+    font-size: 5.5vw;
 }
-    /* Se for centralizar o "informe no campo.." coloca isso na div:
-    display: flex;
-    justify-content: center; */
-div{
-    position: relative;
-    padding-top: 18px;
-    margin-bottom: 5px;
+
+h1{
+    text-shadow: 1px 1px 2px rgb(2, 2, 109);
+
 }
 label{
     color:#fff;
-    font-size: 25px;
-    position: absolute;
+    font-size: 3.8vh;
+    margin-top: 15px;
 }
 textarea::placeholder{
     color: aliceblue;
 }
 textarea{
+    resize: none;
     height: 190px;
     background: none;
     border: none;
@@ -59,28 +66,27 @@ textarea{
     font-weight: 200px;
     font-size: 18px;
     padding: 10px;
-    outline: none;/*estou deixando sem nada no contorno*/
-    margin-top: 30px;/*distância entre a legenda e o textarea*/
+    outline: none;
+    margin-top: 30px;
     margin-bottom: 18px;
-    min-width: 600px;
-    max-width: 600px;
-    /* min-height: 80px; */
-    /* max-height: 80px; */
+    width: 28vw;
+}
+textarea:hover{
+    background-color: rgba(0, 0, 0, 0.121);
 }
 button{
-    width: 280px;
+    width: 50%;
     height: 50px;
-    margin-left: 170px;/*para colocar o botão de enviar no meio*/
     background-color: #fff;
     border: none;
     color: rgb(13, 129, 129);;
-    padding: 7px;/*espaçamento interno*/
+    padding: 7px;
     font-weight: bold;
     font-size: 16px;
     border-radius: 4px;
     cursor: pointer;
-    outline: none;/*estou deixando sem nada no contorno*/
+    outline: none;
 }
 button:hover{
-    opacity: 0.8;/*aplicando transparência*/
+    opacity: 0.8;
 }

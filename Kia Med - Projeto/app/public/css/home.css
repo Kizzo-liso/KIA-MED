@@ -1,165 +1,174 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body{
+   
+    background-color: #70BFF8;
+    color: #fff;
+    font-weight: bold; 
+    font-family: "Poppins", sans-serif;
+    max-width: 100VW; 
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{ 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* principal frase_imagem.............................................................aqui */
+.banner-principal{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height: auto;
+    
+}
+.banner-principal-frase{
+    margin-bottom: 120px;
+
+}
+h2{
+    font-size: 32px;
+    font-weight: 50px;
     font-family: "Poppins", sans-serif;
 }
 
-.interface{
-    max-width: 1280px;
-    margin: 0 auto;
-
+#frase_principal_azul{
+    color: #0227418c;
+    /* color: #4697d1; */
+    font-family: "Poppins", sans-serif;
 }
 
-/* Estilo do header */
-header{
-    width: 100%;
-    padding: 18px 0px;
-    background-color: rgb(10, 195, 195);
+.banner-principal-img{
+    margin-left: 40px;
+    margin-top: 18px;
+    width: 600px;
+    height: 600px;
+   background-repeat: no-repeat;
+    background-size: 72%;
+    margin-bottom: 0;
 }
 
-header .interface{
+/* sobre nós....................................................................................................*/
+.banner-sections{
+    width: 90vw;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header .logo img{
-    max-width: 80%;
-}
-
-header .menu-desktop nav ul{
-    list-style-type: none;
-
-}
-
-.menu-desktop nav ul li{
-    display: inline-block;
-    padding: 0 40px;
-}
-
-.menu-desktop nav ul li a{
-    color: wheat;
-    text-decoration: none;
-    display: inline-block;
-    transition: 0.2s;
-    font-weight: 600;
-}
-
-.menu-desktop nav a:hover{
-    transform: scale(1.05);
-}
-
-header .btn-contato button{
-    width: 140px;
-    height: 50px;
-    font-size: 18px;
-    background-color: transparent;
-    border: 2px solid wheat;
-    color: wheat;
-    cursor: pointer;
-    transition: 0.5s;
-    font-weight: 600;
-}
-
-header .btn-contato button:hover{
-    background-color: wheat;
-    color: rgb(10, 195, 195);
-}
-
-.container-apresentação-site{
-    max-width: 100%;
-    display: flex;
-    align-items: center;
-    background-color: #eeeeeb;
-}
- 
-.container-bem-vindo{
-    width: 50%;
-    padding: 0px 140px;
-}
-
-.container-apresentação-site .btn-saiba-mais button{
-    color: wheat;
-    background-color: rgb(10, 195, 195);
-    font-size: 18px;
-    border: 2px solid wheat;
-    padding: 5px;
-    cursor:pointer;
-    font-weight: 600;
-    border-radius: 10px;
-    margin-top: 0.4em;
-    transition: 0.5s;
-}
-
-.parágrafo-container-apresentação{
-    font-size: 1.3em;
-    font-weight: 400;
-}
-
-.container-apresentação-site .btn-saiba-mais button:hover{
-    background-color: rgb(34, 241, 168);
-    color: rgb(218, 215, 49);
-}
-
-/* Seção do Sobre Nós */
-
-section.sobre-nos{
-    padding: 80px 0;
-    background-color: rgb(10, 195, 195);
-    margin: 2em 0;
-}
-
-.sobre-nos .itens-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10%;
-    margin: 100px;
-}
-
-.sobre-nos .itens-container .img-itens img{
-    max-width: 480px;
-}
-
-.sobre-nos .itens-container .txt-itens h3{
-    line-height: 50px;
-    margin-bottom: 20px;
-}
-
-.paragrafo-sobre-nos{
-    font-size: 30px;
-}
-
-h3{
-    font-size: 60px;
-}
-
-.itens-container .img-itens{
-    font-weight: 300;
-}
-
-footer{
-    display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-bottom: 10px;
+    height: 900px;
+    flex-wrap: wrap;
+    margin-bottom: 3px;
 }
 
-.paragrafo-footer{
-    padding: 0px 10px;
+.banner-sections-frase{
+
+    display: flex;
+    flex: 1 1 400px;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap;
+}
+.paragrafo-sobre-nos{
+    text-align: justify;
+    text-indent: 4em;
+}
+.banner-sections-img{
+    display: flex;
+    height: 500px;
+    flex: 1 1 400px;
+    align-items: center;
+    background-image: url(../img/kiamed.png);
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+}
+.banner-sections-2{
+    width: 90vw;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.banner-sections-img2{
+    display: flex;
+    height: 500px;
+    flex: 1 1 400px;
+    align-items: center;
+    background-image: url(../img/autoajuda_plano.png);
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+}
+.banner-sections-img3{
+    display: flex;
+    height: 500px;
+    flex: 1 1 400px;
+    align-items: center;
+    background-image: url(../img/suporte_emocional_plano.png);
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+}
+/* resto do código>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+ul{
+    font-size: 18px;
+}
+a{
+    color: white;
 }
 
-#KiaMed-paragrafo-cores{
-    font-weight: 500;
-    font-size: 20px;
+a:hover{
+    color: #4697d1;
+    transition: 0.3s all; /*all= aplica em tudo*/
+}
+ 
+#inscreva-se{
+    border: 2px solid #4697d1;
+    padding: 10px;
+    border-radius: 20px;
 }
 
-#MED-paragrafo-cor{
-    color:blue;
+#inscreva-se:hover{
+    background-color: #4697d1;
+    color: white;
+}
+li{
+    display: inline-block;
+    margin: 20px;
 }
 
-#Kia-paragrafo-cor{
-    color: red;
+h1{
+    font-size: 40px;
+    font-weight: 200px;
+    line-height: 38px; 
 }
+
+main{
+    display: flex;
+    flex-direction:  column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height: auto;
+    width: 100vw;
+    /* margin-top: 50px */
+}
+
+aside{
+    font-family: "Poppins", sans-serif;
+    margin-top: 150px;
+    position: absolute;
+    right: 1000px;
+}
+

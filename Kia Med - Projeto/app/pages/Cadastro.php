@@ -20,7 +20,7 @@
           <div class="menu-line"></div>
         </div>
         <div class="logo">KIA MED</div>
-        <button class="home-button"><a href="../pages/home pogers.php">Página Inicial</a></button>
+        <button class="home-button"><a href="../pages/home.php">Página Inicial</a></button>
       </header>
       <main>
         <div class="logo-image">

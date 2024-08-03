@@ -37,7 +37,7 @@ if($result->num_rows === 1){
         $_SESSION['nome_usuario'] = $pessoa->nome;
         $_SESSION['logado'] = true;
         $_SESSION['id_usuario'] = $pessoa->cod_usuario; // Corrigido para cod_usuario
-        header("Location: ../pages/home pogers.php");
+        header("Location: ../pages/home.php");
         exit();
     } else {
         header("Location: ../pages/login.php?msgLogin=Usuário ou senha incorretos!");

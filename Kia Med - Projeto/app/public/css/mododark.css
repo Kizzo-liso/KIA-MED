@@ -1,11 +1,32 @@
-  /* Modo escuro */
-  body.dark-mode {
-    background-color: black;
-    color: white;
-  }
-  body.dark-mode #toggle-dark-mode {
-    color: white;
-  }
-  #toggle-dark-mode{
-    font-size: large;
-  }
+body.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+body.dark-mode #toggle-dark-mode {
+  color: white;
+}
+
+#toggle-dark-mode {
+  font-size: large;
+}
+
+#toggle-dark-mode .bi-moon-fill {
+  display: inline;
+}
+
+#toggle-dark-mode .bi-brightness-high-fill {
+  display: none;
+}
+
+body.dark-mode #toggle-dark-mode .bi-moon-fill {
+  display: none;
+}
+
+body.dark-mode #toggle-dark-mode .bi-brightness-high-fill {
+  display: inline;
+}
+
+body.dark-mode #frase_principal_azul {
+  color: #0f598d;
+}

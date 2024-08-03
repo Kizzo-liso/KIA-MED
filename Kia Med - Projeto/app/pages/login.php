@@ -13,7 +13,8 @@
         </div>
         <h1>Login</h1>
         <form action="../actions/verificaçaologin.php" method="post">
-            <label for="email">Email:</label>
+            
+        <label for="email">Email:</label>
             <input type="email" name="email" id="email" placeholder="Digite seu email" required>
             <br>
             <label for="senha">Senha:</label>
