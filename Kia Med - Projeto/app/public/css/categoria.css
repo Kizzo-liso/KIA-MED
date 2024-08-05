@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body{
+   
+    background-color: #70BFF8;
+    color: #fff;
+    font-weight: bold; 
+    font-family: "Poppins";
+    min-height: 100vh;
+    max-width: 1200px; /*quando tiver mais elemento na tela, ele ficará no meio*/
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{ 
+    display: flex; 
+    flex-direction: row; /
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+#titulo{
+    flex-direction: column; /* flex-direction defini a direção em que os flex items são alinhados no flex container. column organiza de cima para baixo  */
+    line-height: 10px; /* espaçamento entre as linhas de um texto */
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: #4697d1;
+    transition: 0.3s all; /*all= aplica em tudo*/
+}
+
+#inscreva-se{
+    border: 2px solid #4697d1;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#inscreva-se:hover{
+    background-color: #4697d1;
+    color: white;
+}
+
+.container-apresentacao{
+    display: flex;
+    flex-direction: row;
+    margin: 5em 0em 15em 0em;
+}
+
+.container-frase-motivacional{
+    display: flex;
+    flex-direction: column;
+    padding-top: 90px;
+    margin-right: 33em;
+}
+
+h2{
+    font-size: 39px;
+    text-align: left;
+    padding-bottom: 0.5em;
+    font-family: "Poppins";
+}
+
+p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Poppins";
+}
+
+.imagem-apresentacao{
+    border-radius: 5px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card-list{
+    display: flex;
+    flex-wrap: wrap; 
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-list .card-item{
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(30px);
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    text-align: left;
+}
+
+.card-list .card-item .user-image{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    padding: 4px;
+    display: block;
+    margin: 0 auto;
+}
+
+.card-list .card-item .user-categoria{
+    font-size: 1.5rem;
+    padding-top: 11em;
+    text-align: center;
+    font-family: "Poppins";
+}
+
+
+.card-list .card-item .user-descricao{
+    font-size: 1.15rem;
+    color:#e3e3e3;
+    font-weight: 500;
+    margin: 14px 10px 20px 10px;
+    font-family: "Poppins";
+}
+
+.card-list .card-item .message-button{
+    font-size: 1.2rem;
+    padding: 10px 35px;
+    color: #030728;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid transparent;
+    transition: 0.2s ease;
+    font-family: "Poppins";
+}
+
+
+.card-list .card-item .message-button:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #fff;
+    color: #fff;
+}
+

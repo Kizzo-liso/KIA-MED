@@ -10,7 +10,7 @@
         </div>
         <nav>
             <ul>
-                <a href="#"><li>Serviços</li></a>
+                <a href="categoria.html"><li>Categorias</li></a>
                 <a href="#"><li>Contatos</li></a>
                 <a href="sobrenos.html"><li>Sobre</li></a>
                 <a href="feedback.php"><li>Feedback</li></a>

@@ -4,32 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Categorias - KiaMed</title>
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/categoria.css">
-    <!--Código de importação de fonte - Poppins-->
+    <link rel="stylesheet" href="../public/css/home.css">
+    <link rel="stylesheet" href="../public/css/categoria.css">
+    <link rel="stylesheet" href="../public/css/mododark.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     </style>
-    <!--Código de importação de fonte - Poppins-->
-</head>
+    </head>
 <body>
     
-    <header>
-        <!-- a div é utilizado para agrupar elementos para fins de estilos, ele também é usado somente quando não tiver outro elemento semântico (exemplo: article, nav). Ele facilita a organização do layout -->
-         <!--  a <div> serve, especialmente quando a seção é apenas com propósito de estilização.  -->
-        <div id="titulo">
-            <h1>Kia Med</h1>
-        </div>
-        <nav>
-            <ul>
-                <a href="#"><li>Serviços</li></a>
-                <a href="#"><li>Contatos</li></a>
-                <a href="home.html"><li>Sobre</li></a>
-                <a href="feedback.html"><li>Feedback</li></a>
-                <a href="aleatorio.html" id="inscreva-se"><li>Já tem uma conta?</li></a>
-            </ul>
-        </nav> 
-    </header>
+<?php 
+    include("header.php");
+    ?>  
 
     <section class="container-apresentacao">
         
@@ -43,7 +29,7 @@
 
         <div class="container-imagem-apresentacao">
 
-            <a href="https://br.freepik.com/vetores-gratis/fundo-do-dia-mundial-da-saude-mental-gradiente_30591586.htm#fromView=search&page=1&position=10&uuid=d848d34d-0f51-473c-a066-4b011bf3f631" target="_blank"><img class="imagem-apresentacao" src="img/Imagem de apresentação.jpg" alt="Imagem de Ilustração sobre Saúde Mental" height="300px" width="550px"></a>
+            <a href="https://br.freepik.com/vetores-gratis/fundo-do-dia-mundial-da-saude-mental-gradiente_30591586.htm#fromView=search&page=1&position=10&uuid=d848d34d-0f51-473c-a066-4b011bf3f631" target="_blank"><img class="imagem-apresentacao" src="../public/img/Imagem de apresentação.jpg" alt="Imagem de Ilustração sobre Saúde Mental" height="300px" width="550px"></a>
 
         </div>
 
@@ -57,7 +43,7 @@
 
                 <div class="card-item">
 
-                    <img class="user-image" src="img/Ansiedade.png" alt="Imagem ilustrando Ansiedade">
+                    <img class="user-image" src="../public/img/Ansiedade.png" alt="Imagem ilustrando Ansiedade">
 
                     <h2 class="user-categoria">Ansiedade</h2>
 
@@ -68,7 +54,7 @@
                 
                 <div class="card-item">
 
-                    <img class="user-image" src="img/Depressão.png" alt="Imagem Ilustrando Depressão">
+                    <img class="user-image" src="../public/img/Depressão.png" alt="Imagem Ilustrando Depressão">
 
                     <h2 class="user-categoria">Depressão</h2>
 
@@ -80,7 +66,7 @@
 
                 <div class="card-item">
 
-                    <img class="user-image" src="img/Bipolaridade.png" alt="Imagem Ilustrando AutoEstima">
+                    <img class="user-image" src="../public/img/Bipolaridade.png" alt="Imagem Ilustrando AutoEstima">
 
                     <h2 class="user-categoria">Bipolaridade</h2>
 
@@ -92,7 +78,7 @@
 
                 <div class="card-item">
 
-                    <img class="user-image" src="img/Bordeline.png" alt="Imagem Ilustrando Bordeline">
+                    <img class="user-image" src="../public/img/Bordeline.png" alt="Imagem Ilustrando Bordeline">
 
                     <h2 class="user-categoria">Bordeline</h2>
 
