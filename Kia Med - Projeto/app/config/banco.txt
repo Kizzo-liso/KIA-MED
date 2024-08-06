@@ -59,11 +59,12 @@ CREATE TABLE IF NOT EXISTS SUPERVISAO (
 );
 
 /* TABELA RESPONSÁVEL PARA ARMAZENAR O CONTEÚDO EM GERAL */
-CREATE TABLE IF NOT EXISTS CONTEUDO (
+CREATE TABLE IF NOT EXISTS POSTAGENS (
     cod_conteudo INT NOT NULL AUTO_INCREMENT, 
-    hiperlink VARCHAR(50) NOT NULL,
-    texto VARCHAR(255) NOT NULL,
-    data_insercao DATE NOT NULL,
+    titulo VARCHAR(255) NOT NULL,
+    descricao TEXT NOT NULL,
+    conteudo TEXT NOT NULL,
+    data_criacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (cod_conteudo)
 );
 
@@ -107,39 +108,3 @@ CREATE TABLE IF NOT EXISTS CATCONT (
     FOREIGN KEY (cod_conteudo) REFERENCES CONTEUDO(cod_conteudo),
     FOREIGN KEY (cod_categoria) REFERENCES CATEGORIA(cod_categoria)
 );
-
------- parte eduardo -------
-
-CREATE TABLE categorias (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(255) NOT NULL
-);
-
-CREATE TABLE posts (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    titulo VARCHAR(255) NOT NULL,
-    descricao TEXT NOT NULL,
-    conteudo TEXT NOT NULL,
-    imagem VARCHAR(255),
-    categoria_id INT,
-    FOREIGN KEY (categoria_id) REFERENCES categorias(id)
-);
-
-
-ALTER TABLE COMENTARIO ADD COLUMN cod_post INT;
-ALTER TABLE COMENTARIO ADD FOREIGN KEY (cod_post) REFERENCES posts(id);
-
-
-
--- Inserir categorias de exemplo na tabela 'categorias'
-INSERT INTO categorias (nome) VALUES 
-('Depressão'),
-('Ansiedade'),
-('Terapia Cognitivo-Comportamental'),
-('Mindfulness'),
-('Autoajuda'),
-('Relacionamentos'),
-('Bem-estar'),
-('Meditação'),
-('Saúde Mental'),
-('Estresse');

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bipolaridade - KiaMed</title>
+    <link rel="stylesheet" href="../public/css/home.css">
+    <link rel="stylesheet" href="../public/css/Bipolaridade.css">
+    <link rel="stylesheet" href="../public/css/mododark.css">
+</head>
+<body>
+    <header>
+
+        <div id="titulo">
+
+            <h1>Kia Med</h1>
+
+        </div>
+
+        <nav>
+
+            <ul>
+
+                <a href="#"><li>Serviços</li></a>
+
+                <a href="#"><li>Contatos</li></a>
+
+                <a href="home.html"><li>Sobre</li></a>
+
+                <a href="feedback.html"><li>Feedback</li></a>
+
+                <a href="aleatorio.html" id="inscreva-se"><li>Já tem uma conta?</li></a>
+                
+            </ul>
+        </nav>
+
+</header>
+
+<section class="container-geral">
+
+    <section class="container-apresentacao">
+
+        <div class="container-imagem-apresentacao">
+
+            <!-- <img src="img/Bipolaridade.png" alt="Imagem ilustrando ansiedade">-->
+
+        </div>
+
+        <div class="container-subtitulo-apresentacao">
+
+            <h3 class="subtitulo">O que é Bipolaridade?</h3>
+
+            <p class="significado-subtitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo accusamus magnam blanditiis temporibus. Maiores asperiores aut neque odit doloribus! Animi maiores neque voluptates quidem nihil nisi architecto obcaecati expedita corrupti?
+            </p>
+
+        </div>
+
+    </section>
+
+    <section class="container-texto">
+
+        <p class="apresentacao-tema">Cinco dicas simples e praticas para controlar a ansiedade:</p>
+
+        <ol>
+            <li>Envolva-se no seu tratamento</li>
+            <li>Monitore seus sintomas e humor</li>
+            <li>Procure uma conexão cara a cara</li>
+            <li>Desenvolva uma rotina diária ativa</li>
+            <li>Mantenha o estresse ao mínimo</li>
+        </ol>
+
+    </section>
+
+    <section class="conteiner-respirar-melhor">
+
+        <p class="respirar-melhor">Envolva-se no seu tratamento</p>
+
+        <p>Seja paciente. Não espere uma cura imediata e total. Tenha paciência com o processo de tratamento. Pode levar algum tempo para encontrar o programa certo que funciona para você.
+            Comunique-se com o seu provedor de tratamento. Seu programa de tratamento mudará com o tempo, portanto, mantenha contato próximo com seu médico ou terapeuta. Converse com seu médico se sua condição ou necessidades mudar e seja honesto sobre seus sintomas e quaisquer efeitos colaterais de medicamentos.</p>
+
+    </section>
+
+    <section class="conteiner-respirar-melhor">
+
+        <p class="respirar-melhor">Monitore seus sintomas e humor</p>
+
+        <p>É importante reconhecer os sinais de alerta de um episódio maníaco ou depressivo que se aproxima. Faça uma lista dos primeiros sintomas que precederam seus episódios de humor anteriores. Além disso, tente identificar os gatilhos, ou influências externas, que levaram à mania ou à depressão no passado. </p>
+
+    </section>
+
+    <section class="conteiner-respirar-melhor">
+
+        <p class="respirar-melhor">Procure uma conexão cara a cara</p>
+
+        <p>Não se isole! O suporte para o transtorno bipolar começa perto de casa. É importante ter pessoas com quem você pode contar para ajudá-lo em tempos difíceis. O isolamento e a solidão podem causar depressão, então o contato regular com amigos e familiares que o apoiam já é terapêutico por si só.</p>
+
+    </section>
+    <section class="conteiner-respirar-melhor">
+
+        <p class="respirar-melhor">Desenvolva uma rotina diária ativa</p>
+
+        <p>Construa uma estrutura em sua vida. Desenvolver e seguir uma rotina diária pode ajudar a estabilizar as oscilações de humor do transtorno bipolar. Inclua horários definidos para dormir, comer, socializar, fazer exercícios, trabalhar e relaxar. Tente manter um padrão regular de atividade, mesmo em meio a altos e baixos emocionais.</p>
+
+    </section>
+    <section class="conteiner-respirar-melhor">
+
+        <p class="respirar-melhor">Mantenha o estresse ao mínimo</p>
+
+        <p>O estresse pode desencadear episódios de mania e depressão em pessoas com transtorno bipolar, portanto, mantê-lo sob controle é extremamente importante. Conheça os seus limites, tanto em casa como no trabalho ou na escola. Não assuma mais do que você pode suportar e reserve um tempo para si mesmo se estiver se sentindo oprimido.</p>
+
+    </section>
+
+    
+
+    </section>
+
+    <section class="container-livros">
+
+        <h3 class="subtitulo-finais">Recomendações de Livros/Vídeos</h3>
+
+        <ul>
+            <li>Aprendendo a viver com o transtorno bipolar</li>
+
+            <li>Vamos falar de bipolaridade</li>
+
+            <li><a href="https://www.youtube.com/watch?v=GJRUMR__5k4">Bipolaridade - Minutos Psiquicos</a></li>
+
+        </ul>
+
+    </section>
+
+</section>
+
+</body>
+</html>

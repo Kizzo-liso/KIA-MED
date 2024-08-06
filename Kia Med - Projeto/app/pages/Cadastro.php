@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KIA MED</title>
-    <link rel="stylesheet" href="../public/css/aleatorio.css" />
+    <link rel="stylesheet" href="../../public/css/aleatorio.css?v=1.0" />
   </head>
   <body>
     <?php 
@@ -39,7 +39,7 @@
       <footer>
         <div class="footer-content">
           <img src="../public/img/kiamed.png" alt="KIA MED Footer Logo" />
-          <span>2023, <span class="footer-logo-text">KIA MED</span></span>
+          <span>2023, <span class="footer-logo-text"><strong>KIA MED</strong></span></span>
         </div>
       </footer>
     </div>

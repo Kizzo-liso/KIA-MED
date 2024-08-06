@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Categorias - KiaMed</title>
     <link rel="stylesheet" href="../public/css/home.css">
-    <link rel="stylesheet" href="../public/css/categoria.css">
+    <link rel="stylesheet" href="../../public/css/categoria.css">
     <link rel="stylesheet" href="../public/css/mododark.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -29,7 +29,7 @@
 
         <div class="container-imagem-apresentacao">
 
-            <a href="https://br.freepik.com/vetores-gratis/fundo-do-dia-mundial-da-saude-mental-gradiente_30591586.htm#fromView=search&page=1&position=10&uuid=d848d34d-0f51-473c-a066-4b011bf3f631" target="_blank"><img class="imagem-apresentacao" src="../public/img/Imagem de apresentação.jpg" alt="Imagem de Ilustração sobre Saúde Mental" height="300px" width="550px"></a>
+            <a href="https://br.freepik.com/vetores-gratis/fundo-do-dia-mundial-da-saude-mental-gradiente_30591586.htm#fromView=search&page=1&position=10&uuid=d848d34d-0f51-473c-a066-4b011bf3f631" target="_blank"><img class="imagem-apresentacao" src="../../public/img/Imagem de apresentação.jpg" alt="Imagem de Ilustração sobre Saúde Mental" height="300px" width="550px"></a>
 
         </div>
 
@@ -43,48 +43,48 @@
 
                 <div class="card-item">
 
-                    <img class="user-image" src="../public/img/Ansiedade.png" alt="Imagem ilustrando Ansiedade">
+                    <img class="user-image" src="../../public/img/Ansiedade.png" alt="Imagem ilustrando Ansiedade">
 
                     <h2 class="user-categoria">Ansiedade</h2>
 
                     <p class="user-descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quasi molestias accusamus, dignissimos beatae eos esse iure nisi perspiciatis debitis facere, error vitae enim id inventore fugiat reprehenderit assumenda explicabo!</p>
 
-                    <a href="Ansiedade.html"><button class="message-button">Veja Mais!</button></a>
+                    <a href="Ansiedade.php"><button class="message-button">Veja Mais!</button></a>
                 </div>
                 
                 <div class="card-item">
 
-                    <img class="user-image" src="../public/img/Depressão.png" alt="Imagem Ilustrando Depressão">
+                    <img class="user-image" src="../../public/img/Depressão.png" alt="Imagem Ilustrando Depressão">
 
                     <h2 class="user-categoria">Depressão</h2>
 
                     <p class="user-descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quasi molestias accusamus, dignissimos beatae eos esse iure nisi perspiciatis debitis facere, error vitae enim id inventore fugiat reprehenderit assumenda explicabo!</p>
 
-                    <a href="Depressão.html"><button class="message-button">Veja Mais!</button></a>
+                    <a href="Depressão.php"><button class="message-button">Veja Mais!</button></a>
 
                 </div>
 
                 <div class="card-item">
 
-                    <img class="user-image" src="../public/img/Bipolaridade.png" alt="Imagem Ilustrando AutoEstima">
+                    <img class="user-image" src="../../public/img/Bipolaridade.png" alt="Imagem Ilustrando AutoEstima">
 
                     <h2 class="user-categoria">Bipolaridade</h2>
 
                     <p class="user-descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quasi molestias accusamus, dignissimos beatae eos esse iure nisi perspiciatis debitis facere, error vitae enim id inventore fugiat reprehenderit assumenda explicabo!</p>
 
-                    <a href="Bipolaridade.html"><button class="message-button">Veja Mais!</button></a>
+                    <a href="Bipolaridade.php"><button class="message-button">Veja Mais!</button></a>
 
                 </div>
 
                 <div class="card-item">
 
-                    <img class="user-image" src="../public/img/Bordeline.png" alt="Imagem Ilustrando Bordeline">
+                    <img class="user-image" src="../../public/img/Bordeline.png" alt="Imagem Ilustrando Bordeline">
 
                     <h2 class="user-categoria">Bordeline</h2>
 
                     <p class="user-descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quasi molestias accusamus, dignissimos beatae eos esse iure nisi perspiciatis debitis facere, error vitae enim id inventore fugiat reprehenderit assumenda explicabo!</p>
 
-                    <a href="Borderline.html"><button class="message-button">Veja Mais!</button></a>
+                    <a href="Borderline.php"><button class="message-button">Veja Mais!</button></a>
 
                 </div>
 

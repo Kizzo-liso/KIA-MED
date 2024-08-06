@@ -10,10 +10,10 @@
         </div>
         <nav>
             <ul>
-                <a href="categoria.html"><li>Categorias</li></a>
+                <a href="categoria.php"><li>Categorias</li></a>
                 <a href="#"><li>Contatos</li></a>
                 <a href="sobrenos.html"><li>Sobre</li></a>
-                <a href="feedback.php"><li>Feedback</li></a>
+                <a href="../pages/feedback.php"><li>Feedback</li></a>
                 <a href="../pages/login.php" id="inscreva-se"><li>Já tem uma conta?</li></a>
             </ul>
         </nav> 
