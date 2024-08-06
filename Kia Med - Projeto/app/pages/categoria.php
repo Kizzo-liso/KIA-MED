@@ -49,7 +49,7 @@
 
                     <p class="user-descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quasi molestias accusamus, dignissimos beatae eos esse iure nisi perspiciatis debitis facere, error vitae enim id inventore fugiat reprehenderit assumenda explicabo!</p>
 
-                    <a href="Ansiedade.html"><button class="message-button">Veja Mais!</button></a>
+                    <a href="Ansiedade.php"><button class="message-button">Veja Mais!</button></a>
                 </div>
                 
                 <div class="card-item">
@@ -60,7 +60,7 @@
 
                     <p class="user-descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quasi molestias accusamus, dignissimos beatae eos esse iure nisi perspiciatis debitis facere, error vitae enim id inventore fugiat reprehenderit assumenda explicabo!</p>
 
-                    <a href="Depressão.html"><button class="message-button">Veja Mais!</button></a>
+                    <a href="Depressão.php"><button class="message-button">Veja Mais!</button></a>
 
                 </div>
 
@@ -72,7 +72,7 @@
 
                     <p class="user-descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quasi molestias accusamus, dignissimos beatae eos esse iure nisi perspiciatis debitis facere, error vitae enim id inventore fugiat reprehenderit assumenda explicabo!</p>
 
-                    <a href="Bipolaridade.html"><button class="message-button">Veja Mais!</button></a>
+                    <a href="Bipolaridade.php"><button class="message-button">Veja Mais!</button></a>
 
                 </div>
 
@@ -84,7 +84,7 @@
 
                     <p class="user-descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quasi molestias accusamus, dignissimos beatae eos esse iure nisi perspiciatis debitis facere, error vitae enim id inventore fugiat reprehenderit assumenda explicabo!</p>
 
-                    <a href="Borderline.html"><button class="message-button">Veja Mais!</button></a>
+                    <a href="Borderline.php"><button class="message-button">Veja Mais!</button></a>
 
                 </div>
 

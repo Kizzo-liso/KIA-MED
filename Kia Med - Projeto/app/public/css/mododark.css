@@ -30,3 +30,7 @@ body.dark-mode #toggle-dark-mode .bi-brightness-high-fill {
 body.dark-mode #frase_principal_azul {
   color: #0f598d;
 }
+body .container-geral .dark-mode{
+  background-color: black;
+  color: white;
+}
