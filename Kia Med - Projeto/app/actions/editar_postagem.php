@@ -40,7 +40,7 @@
                         <td><?php echo htmlspecialchars($postagem['titulo']); ?></td>
                         <td><?php echo $postagem['data_criacao']; ?></td>
                         <td><?php echo htmlspecialchars($postagem['tipo_categoria']); ?></td>
-                        <td><a href="editar_postagem.php?id=<?php echo $postagem['cod_conteudo']; ?>">Editar</a></td>
+                        <td><a href="editar_postagem_form.php?id=<?php echo $postagem['cod_conteudo']; ?>">Editar</a></td>
                     </tr>
                 <?php endwhile; ?>
             </tbody>
