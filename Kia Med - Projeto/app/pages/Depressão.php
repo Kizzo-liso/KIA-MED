@@ -4,37 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Depressão - KiaMed</title>
-    <link rel="stylesheet" href="../../public/css/home.css">
-    <link rel="stylesheet" href="../../public/css/Depressão.css">
+    <link rel="stylesheet" href="../public/css/Depressão.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="../public/css/home.css">
+    <link rel="stylesheet" href="../public/css/media.css">
+    <link rel="stylesheet" href="../public/css/sobrenos.css">
     <link rel="stylesheet" href="../public/css/mododark.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    
+<?php 
+    include("header.php");
+    ?>  
 
-        <div id="titulo">
-
-            <h1>Kia Med</h1>
-
-        </div>
-
-        <nav>
-
-            <ul>
-
-                <a href="#"><li>Serviços</li></a>
-
-                <a href="#"><li>Contatos</li></a>
-
-                <a href="home.html"><li>Sobre</li></a>
-
-                <a href="feedback.html"><li>Feedback</li></a>
-
-                <a href="aleatorio.html" id="inscreva-se"><li>Já tem uma conta?</li></a>
-                
-            </ul>
-        </nav>
-
-</header>
 
 <section class="container-geral">
 
@@ -175,11 +158,11 @@
 
         <ul>
 
-            <li><a href="https://www.vittude.com/blog/como-tratar-a-depressao-atividades-para-ajudar/">Atividades contra a Depressão</a></li>
+            <li>https://www.vittude.com/blog/como-tratar-a-depressao-atividades-para-ajudar/ </li>
 
-            <li><a href="https://www.youtube.com/watch?v=6RIu4a7hdAA">Um Cachorro Preto chamado DEPRESSÃO</a></li>
+            <li>https://www.youtube.com/watch?v=6RIu4a7hdAA</li>
 
-            <li><a href="https://www.youtube.com/watch?v=T2XLwjy65LA">Depressão - Minutos Psiquicos</a></li>
+            <li>https://www.youtube.com/watch?v=T2XLwjy65LA</li>
 
         </ul>
 

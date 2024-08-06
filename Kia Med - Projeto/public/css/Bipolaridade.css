@@ -1,77 +1,115 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins";
 }
 
-body{
-   
+body {
     background-color: #70BFF8;
     color: #fff;
-    font-weight: bold; 
+    font-weight: bold;
     font-family: "Poppins";
     min-height: 150vh;
     display: flex;
     flex-direction: column;
 }
 
-header{ /*O Flexbox tem como meta ser um modo mais eficiente para criar leiautes, alinhar e distribuir espaços entre itens em um container*/
-    display: flex; /*permitir por os elementos lado a lado */
-    flex-direction: row; /* flex-direction defini a direção em que os flex items são alinhados no flex container. o ROW organiza da esquerda para a direita  */
-    justify-content: space-between; /* justify-content - Esta propriedade define o alinhamento dos ítens ao longo do eixo principal. space-between: os ítens são distribuídos de forma igual ao longo da linha; o primeiro ítem junto à borda inicial da linha, o último junto à borda final da linha. */
-    align-items: center; /* alinhando os itens no centro */
-}
-#titulo{
-    flex-direction: column; /* flex-direction defini a direção em que os flex items são alinhados no flex container. column organiza de cima para baixo  */
-    line-height: 10px; /* espaçamento entre as linhas de um texto */
-}
-
-a{
+body.dark-mode {
+    background-color: black;
     color: white;
 }
 
-a:hover{
-    color: #4697d1;
-    transition: 0.3s all; /*all= aplica em tudo*/
+body.dark-mode #toggle-dark-mode {
+    color: white;
 }
 
-#inscreva-se{
+#toggle-dark-mode {
+    font-size: large;
+}
+
+#toggle-dark-mode .bi-moon-fill {
+    display: inline;
+}
+
+#toggle-dark-mode .bi-brightness-high-fill {
+    display: none;
+}
+
+body.dark-mode #toggle-dark-mode .bi-moon-fill {
+    display: none;
+}
+
+body.dark-mode #toggle-dark-mode .bi-brightness-high-fill {
+    display: inline;
+}
+
+body.dark-mode #frase_principal_azul {
+    color: #0f598d;
+}
+
+.container-geral {
+    margin: 0em 10em;
+    background-color: #70BFF8;
+}
+
+body.dark-mode .container-geral {
+    background-color: black;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#titulo {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #4697d1;
+    transition: 0.3s all;
+}
+
+#inscreva-se {
     border: 2px solid #4697d1;
     padding: 10px;
     border-radius: 20px;
 }
 
-#inscreva-se:hover{
+#inscreva-se:hover {
     background-color: #4697d1;
     color: white;
 }
 
-.container-geral{
-    margin: 0em 10em;
-    background-color: #70BFF8;
-}
-
-.container-apresentacao .container-imagem-apresentacao{
+.container-apresentacao .container-imagem-apresentacao {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.container-imagem-apresentacao img{
+.container-imagem-apresentacao img {
     padding: 1em;
 }
 
-.container-subtitulo-apresentacao .subtitulo h3{
+.container-subtitulo-apresentacao .subtitulo h3 {
     text-align: left;
     font-weight: 700;
     font-size: 40px;
     padding: 0em 0.5em 0.5em 0.5em;
 }
 
-.container-subtitulo-apresentacao .significado-subtitulo{
+.container-subtitulo-apresentacao .significado-subtitulo {
     text-align: left;
     padding: 0.5em 2em;
     font-weight: 500;
@@ -79,27 +117,22 @@ a:hover{
     line-height: 1.40em;
 }
 
-.container-texto .apresentacao-tema{
+.container-texto .apresentacao-tema {
     font-weight: 700;
     font-size: 30px;
     padding: 0.5em 0em;
 }
 
-.container-texto{
-    margin: 2em 0em;
-}
-
-.container-texto li{
+.container-texto li {
     font-size: 20px;
 }
 
-.conteiner-respirar-melhor .respirar-melhor{
+.conteiner-respirar-melhor .respirar-melhor {
     font-weight: 700;
     font-size: 30px;
     padding: 0.5em 0em;
 }
 
-.subtitulo-finais{
+.subtitulo-finais {
     padding-top: 1em;
 }
-
