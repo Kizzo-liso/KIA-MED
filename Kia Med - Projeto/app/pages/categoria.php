@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="../public/css/home.css">
     <link rel="stylesheet" href="../../public/css/categoria.css">
     <link rel="stylesheet" href="../public/css/mododark.css">
+    <link rel="stylesheet" href="../../public/css/header.css">
+
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-    </style>
+    </style>    
     </head>
 <body>
     
@@ -47,7 +49,8 @@
 
                     <h2 class="user-categoria">Ansiedade</h2>
 
-                    <p class="user-descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quasi molestias accusamus, dignissimos beatae eos esse iure nisi perspiciatis debitis facere, error vitae enim id inventore fugiat reprehenderit assumenda explicabo!</p>
+                    <p class="user-descricao">A ansiedade é uma resposta natural do corpo ao estresse, caracterizada por sentimentos de preocupação,
+                    nervosismo ou medo sobre eventos futuros ou situações incertas.</p>
 
                     <a href="Ansiedade.php"><button class="message-button">Veja Mais!</button></a>
                 </div>
@@ -82,7 +85,8 @@
 
                     <h2 class="user-categoria">Bordeline</h2>
 
-                    <p class="user-descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quasi molestias accusamus, dignissimos beatae eos esse iure nisi perspiciatis debitis facere, error vitae enim id inventore fugiat reprehenderit assumenda explicabo!</p>
+                    <p class="user-descricao">Transtorno de Personalidade Borderline é o nome do transtorno de saúde mental dado a pessoas que possuam um padrão
+                        de comportamento permeado pela impulsividade, instabilidade emocional, medo da rejeição e tendências autodepreciativas.</p>
 
                     <a href="Borderline.php"><button class="message-button">Veja Mais!</button></a>
 

@@ -32,8 +32,8 @@
 
             <h3 class="subtitulo">O que é Bipolaridade?</h3>
 
-            <p class="significado-subtitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo accusamus magnam blanditiis temporibus. Maiores asperiores aut neque odit doloribus! Animi maiores neque voluptates quidem nihil nisi architecto obcaecati expedita corrupti?
-            </p>
+            <p class="significado-subtitulo">
+</p>
 
         </div>
 
