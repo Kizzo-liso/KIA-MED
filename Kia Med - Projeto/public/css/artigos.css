@@ -1,0 +1,111 @@
+/* Define o fundo da página e o estilo geral */
+body {
+    font-family: Arial, sans-serif; /* Fonte Arial */
+    margin: 0;
+    padding: 0;
+    background-color: #70BFF8; /* Azul claro */
+}
+header{
+
+    color: white;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* Estilo para o conteúdo principal */
+main {
+    padding: 20px;
+}
+
+/* Estilo para a seção de postagens */
+.category-section {
+    margin-bottom: 2em;
+    color: #ffffff; /* Branco */
+}
+
+/* Título da categoria */
+.category-title {
+    font-size: 2rem;
+    margin-bottom: 1em;
+    font-family: Arial, sans-serif; /* Fonte Arial */
+    color: #ffffff; /* Branco */
+}
+
+/* Container para os itens das postagens */
+.latest-posts-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; /* Impede que os itens quebrem para a linha seguinte */
+    overflow-x: auto; /* Permite rolar horizontalmente */
+    padding: 10px;
+    white-space: nowrap; /* Impede que os itens quebrem para a linha seguinte */
+    background-color: #70BFF8; /* Cor de fundo para o container */
+}
+
+/* Estilo dos itens de postagem */
+.latest-post-item {
+    border: 1px solid #ffffff; /* Branco */
+    background-color: rgba(255, 255, 255, 0.2); /* Fundo semi-transparente branco */
+    border-radius: 8px;
+    padding: 15px; /* Reduzido para ajustar o texto */
+    width: 300px; /* Largura do retângulo */
+    height: 150px; /* Altura menor para ficar deitado */
+    display: inline-flex; /* Flexbox para alinhamento interno */
+    flex-direction: column; /* Alinha o texto verticalmente */
+    justify-content: space-between; /* Espaça o conteúdo dentro do bloco */
+    margin: 0 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    box-sizing: border-box; /* Inclui o padding e border na largura e altura total */
+    overflow: hidden; /* Evita que o texto vaze do bloco */
+}
+
+/* Efeito de hover para aumentar o tamanho e alterar a sombra */
+.latest-post-item:hover {
+    transform: scale(1.05); /* Efeito de zoom */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo do título dentro do item */
+.latest-post-item h3 {
+    font-size: 0.9rem; /* Ajustado para caber melhor */
+    margin: 0;
+    color: #ffffff; /* Branco */
+    overflow-wrap: break-word; /* Quebra o texto para não vazar */
+    word-wrap: break-word; /* Quebra o texto para não vazar */
+    hyphens: auto; /* Hifenização automática */
+    font-family: Arial, sans-serif; /* Fonte Arial */
+    font-weight: normal;
+    line-height: 1.2;
+    text-overflow: ellipsis; /* Adiciona reticências se o texto for muito longo */
+    white-space: normal; /* Permite quebra de linha */
+}
+
+/* Estilo do texto dentro do item */
+.latest-post-item p {
+    font-size: 0.8rem; /* Ajustado para caber melhor */
+    color: #ffffff; /* Branco */
+    font-family: Arial, sans-serif; /* Fonte Arial */
+    overflow-wrap: break-word; /* Quebra o texto para não vazar */
+    word-wrap: break-word; /* Quebra o texto para não vazar */
+    hyphens: auto; /* Hifenização automática */
+    margin: 0; /* Remove margem adicional */
+    white-space: normal; /* Permite quebra de linha */
+}
+
+/* Estilo do link dentro do item */
+.latest-post-item a {
+    text-decoration: none; /* Remove sublinhado */
+    color: #ffffff; /* Branco */
+    font-size: 0.8rem; /* Ajustado para caber melhor */
+}
+
+/* Cor do link no hover */
+.latest-post-item a:hover {
+    color: #e0f7fa; /* Azul bebê */
+    transition: 0.5s;
+}
