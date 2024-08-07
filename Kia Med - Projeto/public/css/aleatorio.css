@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #e0f7fa;
+    background-color: #4697d1;
     margin: 0;
 }
 
@@ -22,7 +22,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #43dff7; /* Verde escuro para contraste */
+    background-color: #4697d1; /* Verde escuro para contraste */
 }
 
 .menu-icon {
@@ -33,11 +33,7 @@ header {
     cursor: pointer;
 }
 
-.menu-line {
-    width: 30px;
-    height: 4px;
-    background-color: #000000; /* Branco para contraste */
-}
+
 
 .logo {
     font-size: 24px;
@@ -46,14 +42,14 @@ header {
 }
 
 .home-button {
-    background-color: #0000FF;
+    background-color: #272424;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
 }
 
 .home-button a {
-    color: #FFF; /* Branco para o link */
+    color: #ffffff; /* Branco para o link */
     text-decoration: none; /* Remove sublinhado */
     display: block; /* Faz o link preencher todo o botão */
 }
@@ -104,14 +100,14 @@ main {
     padding: 10px;
     font-size: 16px;
     color: #FFF;
-    background-color: #0000FF;
+    background-color: #00b3ff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 footer {
-    background-color: #4acce9; /* Verde escuro para contraste */
+    background-color:#4697d1; /* Verde escuro para contraste */
     padding: 20px;
     text-align: center;
 }
