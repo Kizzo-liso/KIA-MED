@@ -174,11 +174,12 @@ p{
 }
 
 .latest-post-item {
-    background-color: #ffffff;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.2);
     border-radius: 8px;
     padding: 20px;
     width: 150px;
-    height: 250px; /* Ajuste a altura conforme necessário */
+    height: 250px; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -196,7 +197,7 @@ p{
 .latest-post-item h3 {
     font-size: 1rem;
     margin: 0;
-    color: #2997ff;
+    color: #f3f3f3;
     overflow-wrap: break-word;
     word-wrap: break-word;
     hyphens: auto;
@@ -215,6 +216,6 @@ p{
 }
 
 .latest-post-item a:hover {
-    color: #003a70; /* Mantém a cor do texto no hover */
+    color: #ffffff; /* Mantém a cor do texto no hover */
     transition: 0.5s;
 }

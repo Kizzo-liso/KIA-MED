@@ -7,6 +7,7 @@ body{
     max-width: 100vw; 
     margin: 0 auto;
     padding: 15px;
+
 }
 
 header{ 
@@ -16,6 +17,7 @@ header{
     align-items: center; 
     margin-left: 20px;
     margin-right: 20px;
+
 }
 
 /* principal frase_imagem.............................................................aqui */
@@ -26,6 +28,7 @@ header{
     align-items: center;
     margin-top: 10px;
     height: auto;
+
     
 }
 .banner-principal-frase{

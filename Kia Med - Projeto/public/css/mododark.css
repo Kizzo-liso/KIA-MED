@@ -35,17 +35,17 @@ body .container-geral .dark-mode{
   color: white;
 }
 
-.latest-post-item{
+body .latest-post-item .dark-mode {
   background-color: rgb(56, 56, 56);
 }
 
-.latest-post-item h3{
+body.dark-mode .latest-post-item h3{
 
   color: #fff;
 
 }
 
-.latest-post-item a:hover{
+body .latest-post-item a:hover .dark-mode {
 
   color: #fff;
 

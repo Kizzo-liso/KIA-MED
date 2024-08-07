@@ -100,7 +100,7 @@
 
         </div>
         <section class="latest-posts">
-            <h2>Últimas Postagens</h2>
+            <h2>Últimas Postagens do KIAMED</h2>
             <div class="latest-posts-container">
                 <?php
                 require_once '../config/conecta.php';

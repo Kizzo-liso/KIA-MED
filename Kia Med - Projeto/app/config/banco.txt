@@ -15,8 +15,6 @@ CREATE TABLE IF NOT EXISTS ADMIN (
     senha VARCHAR(255) NOT NULL
 );
 
-
-
 /* TABELA DO USUÁRIO */
 CREATE TABLE IF NOT EXISTS USUARIO (
     cod_usuario INT NOT NULL AUTO_INCREMENT,
@@ -113,3 +111,6 @@ INSERT INTO CATEGORIA (tipo_categoria) VALUES ('Bordeline');
 INSERT INTO CATEGORIA (tipo_categoria) VALUES ('Depressão');
 INSERT INTO CATEGORIA (tipo_categoria) VALUES ('Ansiedade');
 INSERT INTO CATEGORIA (tipo_categoria) VALUES ('Bipolaridade');
+
+INSERT INTO ADMIN (nome, email, telefone, senha, data_cadastro) 
+VALUES ('Kiamed_ADM', 'kiamed@gmail.com', '9876543210', 'kiamed', CURDATE());
