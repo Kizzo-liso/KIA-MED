@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerenciamento de Postagens</title>
-    <link rel="stylesheet" href="../../public/css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../../public/css/gerenciamento.css">
+</head>
 </head>
 <body>
     <header>
@@ -12,19 +14,20 @@
     </header>
     <main>
         <div class="icons">
-            <a href="criar_postagem.php">
-                <img src="create_icon.png" alt="Criar Postagem">
+            <a href="criar_postagem.php" class="icon-box">
+                <i class="fas fa-plus-circle"></i>
                 <p>Criar Postagem</p>
             </a>
-            <a href="editar_postagem.php">
-                <img src="edit_icon.png" alt="Editar Postagem">
+            <a href="editar_postagem.php" class="icon-box">
+                <i class="fas fa-edit"></i>
                 <p>Editar Postagem</p>
             </a>
-            <a href="deletar_postagem.php">
-                <img src="delete_icon.png" alt="Deletar Postagem">
+            <a href="deletar_postagem.php" class="icon-box">
+                <i class="fas fa-trash-alt"></i>
                 <p>Deletar Postagem</p>
             </a>
         </div>
+
     </main>
 </body>
 </html>

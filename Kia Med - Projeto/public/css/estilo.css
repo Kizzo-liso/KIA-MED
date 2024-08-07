@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #4682b4;
+    background-color: #00ccff;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -87,4 +87,33 @@ button:hover {
 
 .icons img {
     max-width: 50px;
+}
+
+.search-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-input-container {
+    position: relative;
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.search-input-container input {
+    width: 100%;
+    padding: 10px 20px 10px 40px; /* Espaço para o ícone */
+    border: 1px solid #007bff;
+    border-radius: 5px;
+}
+
+.search-input-container .search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: rgba(0, 0, 0, 0.5); /* Cinza semi-transparente */
+    pointer-events: none; /* O ícone não interfere nas interações do input */
 }
