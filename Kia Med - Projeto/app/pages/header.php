@@ -17,8 +17,7 @@ session_start(); // Iniciar a sessão no início do arquivo
     <nav>
         <ul>
             <a href="categoria.php"><li>Categorias</li></a>
-            <a href="#"><li>Contatos</li></a>
-            <a href="sobrenos.html"><li>Sobre</li></a>
+            <a href="artigos.php">Artigos</a>
             <a href="../pages/feedback.php"><li>Feedback</li></a>
             <?php if (isset($_SESSION['username'])): ?>
                 <li class="dropdown">

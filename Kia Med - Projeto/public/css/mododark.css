@@ -34,3 +34,19 @@ body .container-geral .dark-mode{
   background-color: black;
   color: white;
 }
+
+.latest-post-item{
+  background-color: rgb(56, 56, 56);
+}
+
+.latest-post-item h3{
+
+  color: #fff;
+
+}
+
+.latest-post-item a:hover{
+
+  color: #fff;
+
+}

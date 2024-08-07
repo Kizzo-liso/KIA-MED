@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Depressão - KiaMed</title>
     <link rel="stylesheet" href="../public/css/Depressão.css">
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="../public/css/home.css">
-    <link rel="stylesheet" href="../public/css/media.css">
-    <link rel="stylesheet" href="../public/css/sobrenos.css">
-    <link rel="stylesheet" href="../public/css/mododark.css">
+    <link rel="stylesheet" href="../../public/css/home.css">
+    <link rel="stylesheet" href="../../public/css/media.css">
+    <link rel="stylesheet" href="../../public/css/sobrenos.css">
+    <link rel="stylesheet" href="../../public/css/header.css">
+    <link rel="stylesheet" href="../../public/css/mododark.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -161,11 +161,11 @@
 
         <ul>
 
-            <li>https://www.vittude.com/blog/como-tratar-a-depressao-atividades-para-ajudar/ </li>
+            <li><a href="https://www.vittude.com/blog/como-tratar-a-depressao-atividades-para-ajudar/">https://www.vittude.com/blog/como-tratar-a-depressao-atividades-para-ajudar/</a> </li>
 
-            <li>https://www.youtube.com/watch?v=6RIu4a7hdAA</li>
+            <li><a href="https://www.youtube.com/watch?v=6RIu4a7hdAA">https://www.youtube.com/watch?v=6RIu4a7hdAA</a></li>
 
-            <li>https://www.youtube.com/watch?v=T2XLwjy65LA</li>
+            <li><a href="https://www.youtube.com/watch?v=T2XLwjy65LA">https://www.youtube.com/watch?v=T2XLwjy65LA</a></li>
 
         </ul>
 

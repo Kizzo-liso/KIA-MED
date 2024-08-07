@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Categorias - KiaMed</title>
-    <link rel="stylesheet" href="../public/css/home.css">
+    <link rel="stylesheet" href="../../public/css/header.css">
+    <link rel="stylesheet" href="../../public/css/home.css">
     <link rel="stylesheet" href="../../public/css/categoria.css">
-    <link rel="stylesheet" href="../public/css/mododark.css">
+    <link rel="stylesheet" href="../../public/css/mododark.css">
     <link rel="stylesheet" href="../../public/css/header.css">
 
     <style>
@@ -98,7 +99,33 @@
             </div>
 
         </div>
+        <section class="latest-posts">
+            <h2>Últimas Postagens</h2>
+            <div class="latest-posts-container">
+                <?php
+                require_once '../config/conecta.php';
+                conecta(); // Abre a conexão com o banco de dados
 
+                // Consulta para buscar as últimas 5 postagens
+                $sql = "SELECT cod_conteudo, titulo FROM POSTAGENS ORDER BY data_criacao DESC LIMIT 5";
+                $resultado = $mysqli->query($sql);
+
+                if ($resultado->num_rows > 0) {
+                    while ($postagem = $resultado->fetch_assoc()) {
+                        echo '<div class="latest-post-item">';
+                        echo '<a href="paginaConteudo.php?id=' . $postagem['cod_conteudo'] . '">';
+                        echo '<h3>' . htmlspecialchars($postagem['titulo']) . '</h3>';
+                        echo '</a>';
+                        echo '</div>';
+                    }
+                } else {
+                    echo '<p>Sem postagens recentes.</p>';
+                }
+
+                desconecta(); // Fecha a conexão com o banco de dados
+                ?>
+            </div>
+        </section>
     </section>
 
 </body>

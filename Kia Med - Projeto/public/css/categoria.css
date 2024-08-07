@@ -154,3 +154,67 @@ p{
     color: #fff;
 }
 
+.latest-posts {
+    margin: 2em 0;
+    text-align: center;
+}
+
+.latest-posts h2 {
+    font-size: 2rem;
+    margin-bottom: 1em;
+    font-family: "Poppins";
+}
+
+.latest-posts-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.latest-post-item {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 150px;
+    height: 250px; /* Ajuste a altura conforme necessário */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.latest-post-item:hover {
+    transform: scale(1.05); /* Zoom efeito */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.latest-post-item h3 {
+    font-size: 1rem;
+    margin: 0;
+    color: #2997ff;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    font-family: "Poppins";
+    font-weight: normal;
+    line-height: 1.2;
+    transition: font-size 0.3s ease;
+}
+
+.latest-post-item:hover h3 {
+    font-size: 1.1rem; /* Tamanho do título aumenta no hover */
+}
+
+.latest-post-item a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+.latest-post-item a:hover {
+    color: #003a70; /* Mantém a cor do texto no hover */
+    transition: 0.5s;
+}
