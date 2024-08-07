@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <div class="logo">
-            <img src="../public/img/kiamed.png" alt="Logo KiaMed">
+        <img src="../../public/img/kiamed.png" alt="KIA MED" />
         </div>
         <h1>Login</h1>
         <form action="../actions/verificaçaologin.php" method="post">
