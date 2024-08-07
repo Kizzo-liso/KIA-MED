@@ -3,6 +3,8 @@
 require_once("../config/conecta.php");
 require_once("../config/verifica.php");
 
+session_start(); // Iniciar a sessão
+
 $msg = '';
 
 if (empty($_POST['username'])) {
@@ -35,6 +37,7 @@ if (empty($_POST['username'])) {
     $stmt->execute();
 
     if ($stmt->affected_rows > 0) {
+        $_SESSION['username'] = $nome; // Armazenar o nome do usuário na sessão
         $msg = "Pessoa cadastrada com sucesso.";
     } else {
         $msg = "Não foi possível inserir.";

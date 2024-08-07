@@ -47,3 +47,22 @@ document.addEventListener("DOMContentLoaded", function() {
       toggleButton.querySelector('.bi-brightness-high-fill').style.display = 'none';
   }
 });
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    const dropdownButton = document.getElementById("dropdownButton");
+    const dropdownContent = document.getElementById("dropdownContent");
+
+    dropdownButton.addEventListener("click", function() {
+        dropdownContent.classList.toggle("show");
+    });
+
+    // Fechar o dropdown se clicar fora dele
+    window.addEventListener("click", function(event) {
+        if (!event.target.matches('.dropbtn')) {
+            if (dropdownContent.classList.contains('show')) {
+                dropdownContent.classList.remove('show');
+            }
+        }
+    });
+});
