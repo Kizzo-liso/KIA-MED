@@ -79,9 +79,6 @@
         <p class="respirar-melhor">Borderline: uma personalidade que precisa de atenção</p>
 
         <p>Os borderlines podem viver uma vida com uma montanha-russa de sentimentos, mas quando tratados e sob controle, são pessoas maravilhosas. Por se tratar de transtorno de personalidade, a atenção deve ser constante e a busca por ajuda deve ser sempre considerada.
-
- 
-
             Também é importante salientar que se você gosta ou ama alguém com este transtorno, tutelá-lo e colocar-se como a solução de seus problemas não é saudável para você. A sua contribuição é importante, mas a pessoa também precisa buscar e aceitar ajuda.</p>
 
     </section>

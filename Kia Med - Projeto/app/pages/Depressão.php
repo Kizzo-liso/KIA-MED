@@ -33,7 +33,10 @@
 
             <h3 class="subtitulo">O que é Depressão?</h3>
 
-            <p class="significado-subtitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo accusamus magnam blanditiis temporibus. Maiores asperiores aut neque odit doloribus! Animi maiores neque voluptates quidem nihil nisi architecto obcaecati expedita corrupti?
+            <p class="significado-subtitulo">Depressão é um transtorno mental caracterizado por um tristeza persistente, falta de interesse em atividades
+                que antes eram prazerosas é uma sensação de desesperança. Pessoas com depressão podem experimentar mudanças no apetite, sono, energia e
+                concentração. Esses sintomas podem interferir significativamente na vida diária e no funcionamento geral. A depressão pode ser causada
+                por uma combinação de fatores genéticos e psicológicos, e geralment requer tratamento, que pode incluir terapia e medicação.
             </p>
 
         </div>

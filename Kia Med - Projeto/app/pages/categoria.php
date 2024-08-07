@@ -61,7 +61,8 @@
 
                     <h2 class="user-categoria">Depressão</h2>
 
-                    <p class="user-descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quasi molestias accusamus, dignissimos beatae eos esse iure nisi perspiciatis debitis facere, error vitae enim id inventore fugiat reprehenderit assumenda explicabo!</p>
+                    <p class="user-descricao">Depressão é um transtorno mental caracterizado por um tristeza persistente, falta de interesse em atividades
+                que antes eram prazerosas é uma sensação de desesperança.</p>
 
                     <a href="Depressão.php"><button class="message-button">Veja Mais!</button></a>
 
@@ -73,7 +74,9 @@
 
                     <h2 class="user-categoria">Bipolaridade</h2>
 
-                    <p class="user-descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quasi molestias accusamus, dignissimos beatae eos esse iure nisi perspiciatis debitis facere, error vitae enim id inventore fugiat reprehenderit assumenda explicabo!</p>
+                    <p class="user-descricao">A bipolaridade, também conhecida como transtorno bipolar, é uma condição de saúde mental caracterizada por
+                mudanças extremas de humor, que incluem episódios de mania (ou hipomania, uma forma menos severa) e depressão. Durante os episódios maníacos,
+                </p>
 
                     <a href="Bipolaridade.php"><button class="message-button">Veja Mais!</button></a>
 
