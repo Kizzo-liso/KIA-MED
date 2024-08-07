@@ -1,5 +1,4 @@
 <?php
-
 include_once("../config/conecta.php");
 session_start();
 
@@ -9,7 +8,7 @@ if (!isset($_SESSION['logado']) || !$_SESSION['logado']) {
 }
 
 if (empty($_POST['comentario']) || empty($_POST['post_id'])) {
-    header("Location: ../pages/comentarios.php?msg=O comentário ou ID do post não podem estar vazios.");
+    header("Location: ../pages/paginaConteudo.php?id=" . intval($_POST['post_id']) . "&msg=O comentário ou ID do post não podem estar vazios.");
     exit();
 }
 
@@ -22,7 +21,7 @@ conecta(); // Abrindo a conexão com o banco de dados
 global $mysqli;
 
 // Prepara a instrução SQL
-$sql = "INSERT INTO COMENTARIO (texto_comentario, data_comentario, cod_usuario, cod_post) VALUES (?, ?, ?, ?)";
+$sql = "INSERT INTO COMENTARIO (texto_comentario, data_comentario, cod_usuario, cod_conteudo) VALUES (?, ?, ?, ?)";
 $stmt = $mysqli->prepare($sql);
 if (!$stmt) {
     die("Erro ao preparar a instrução SQL: " . $mysqli->error);
@@ -32,9 +31,9 @@ $stmt->bind_param("ssii", $comentario, $data_comentario, $id_usuario, $post_id);
 $stmt->execute();
 
 if ($stmt->affected_rows > 0) {
-    header("Location: ../pages/comentarios.php?post_id=$post_id&msg=Comentário enviado com sucesso.");
+    header("Location: ../pages/paginaConteudo.php?id=$post_id&msg=Comentário enviado com sucesso.");
 } else {
-    header("Location: ../pages/comentarios.php?post_id=$post_id&msg=Não foi possível enviar o comentário.");
+    header("Location: ../pages/paginaConteudo.php?id=$post_id&msg=Não foi possível enviar o comentário.");
 }
 
 // Fecha a conexão

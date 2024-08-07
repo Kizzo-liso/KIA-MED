@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 50%;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.post h1 {
+    color: #00796b;
+    border-bottom: 2px solid #00acc1;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.descricao {
+    color: #006064;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.conteudo {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.data-criacao {
+    color: #004d40;
+    text-align: right;
+}
+
+.comentarios {
+    margin-top: 40px;
+}
+
+.comentarios h2 {
+    color: #00796b;
+}
+
+.comentarios form {
+    margin-top: 20px;
+}
+
+.comentarios textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.comentarios button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.comentarios button:hover {
+    background-color: #0056b3;
+}
+
+.comentario {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.comentario h4 {
+    margin: 0;
+    color: #004d40;
+}
+
+.comentario p {
+    margin: 5px 0 0;
+    color: #333;
+}
